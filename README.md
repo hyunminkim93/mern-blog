@@ -1,5 +1,7 @@
 # MERN BLOG
 
+
+
 vite(https://ko.vitejs.dev/guide/)
 tailwindcss(https://tailwindcss.com/docs/guides/vite)
 
@@ -12,21 +14,17 @@ npm i react-router-dom
 npm i react-icons
 ```
 
-```bash
+````bash
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ````
 
+````bash
+git init
+git add .
+git commit -m "first"
 
-````
-api폴더 생성
-index.js
-````
-
-client --> src
-````
-components
-constants
-pages
-redux
+git remote add origin https://github.com/hyunminkim93/mern-blog.git
+git branch -M main
+git push -u origin main
 ````
