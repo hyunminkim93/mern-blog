@@ -4,6 +4,8 @@ MERN 스택은 JavaScript 기반 웹 애플리케이션 개발 스택으로, Mon
 
 vite(https://ko.vitejs.dev/guide/)   
 tailwindcss(https://tailwindcss.com/docs/guides/vite)   
+mongodb(https://cloud.mongodb.com/)   
+redux-toolkit(https://redux-toolkit.js.org/)   
 
 ```bash
 npm create vite@latest
@@ -12,6 +14,9 @@ npm install
 npm run dev
 npm i react-router-dom
 npm i react-icons
+
+npm install @reduxjs/toolkit   
+npm install react-redux
 ```
 
 ````bash
@@ -34,4 +39,7 @@ npm init -y
 npm i express
 npm i nodemon
 npm i mongoose
+npm i dotenv
+npm i bcryptjs 비밀번호 암호화   
+npm i jsonwebtoken
 ````
