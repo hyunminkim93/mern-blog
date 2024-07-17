@@ -91,7 +91,7 @@ export default function SignIn() {
                         {loading ? (
                             <span className="p-2">Loading...</span>
                         ) : (
-                            "하기"
+                            "로그인하기"
                         )}
                     </button>
                     <div className="flex items-center justify-center">

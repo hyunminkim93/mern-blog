@@ -116,7 +116,7 @@ export default function SignUp() {
                         {loading ? (
                             <span className="p-2">Loading...</span>
                         ) : (
-                            "하기"
+                            "회원가입하기"
                         )}
                     </button>
                     <div className="flex items-center justify-center">
