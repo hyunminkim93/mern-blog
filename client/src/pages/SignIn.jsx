@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux"
 import { signInStart, signInSuccess, signInFailure } from "../redux/user/userSlice"
+import OAuth from "../components/OAuth.jsx";
 
 export default function SignIn() {
     const [formData, setFormData] = useState();
@@ -94,6 +95,7 @@ export default function SignIn() {
                             "로그인하기"
                         )}
                     </button>
+                    <OAuth />
                     <div className="flex items-center justify-center">
 
                         <div className="flex mt-10">
